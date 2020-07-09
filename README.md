@@ -1,0 +1,5 @@
+# Traffic Fatality Rate Study
+
+In June 2020, [a study](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2767643?guestAccessKey=55702ba9-61c9-42de-8639-11dfa70b0fa6&utm_source=For_The_Media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=062220) on which I was co-authored was published in JAMA Internal Medicine. I helped perform statistical analysis and helped to draft the manuscript. While the study was done in Stata, I recreated it to an extent in R in order to validate the results as we were working. This repo contains the version of the study done in R. The study found that there was statistically significant evidence that the opening of stores following legalization of recreational marijuana was associated with an increase in the traffic fatality rate. 
+
+The data are contained in the .dta file (from Stata) "tfr w ue speed seatbelt.dta". This includes panel data on the traffic fatality rate in addition to correlates such as the speed limit, unemployment, and whether seatbelt laws changed. The file did.r (for difference-in-difference) contains the analysis.
